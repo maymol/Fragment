@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="50dp"
+    android:paddingTop="50dp"
+    android:paddingRight="50dp"
+    android:paddingBottom="50dp"
+    tools:context=".Loginpage">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Username"
+        android:paddingTop="70dp"
+        android:textColor="@color/material_on_background_emphasis_high_type"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+
+        android:layout_marginTop="20dp"
+
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-90dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:textColor="@color/black"
+
+
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="SUBMIT"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:textColor="@color/black"
+        android:layout_alignBottom="@id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-80dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="clear"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
+
